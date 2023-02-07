@@ -1,0 +1,180 @@
+@keyframes border {
+    0%{border-top-color: rgb(226, 16, 9);}
+    25% {border-left-color: rgb(255, 81, 0);}
+    50% {border-right-color: rgba(155, 42, 8, 0.658);}
+    75% {border-block-end-color: rgb(238, 85, 39);}
+    100% {border-block-start-color:rgb(156, 0, 0);} 
+}
+@keyframes luz {
+    0%{color: black;text-shadow: 02px 05px 20px white;}
+    100%{color: white;text-shadow: 02px 05px 20px white;}
+    
+}
+html {
+    background-color: black;
+    background-image: url(Imagens/rain.gif);
+    background-size: 100%;
+}
+img {
+    margin: 0px;
+    width: 200px;
+    height: 270px;
+    flex-wrap: nowrap;
+    
+}
+.vistos {
+    font-family: 'Lora', serif;    
+    animation-name: luz;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.ainda {
+    font-family: 'Lora', serif;
+    animation-name: luz;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+img:hover {
+    cursor:auto;
+    margin: 0;
+    width: 200px;
+    height: 270px;
+    transition: all 100ms linear;
+    border-radius: 30px;
+    border-style:inset ;
+    border-color: red;
+    animation-name:border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+title {
+    background-color: red;
+}
+figcaption {
+    text-shadow:01px 01px 01px red;
+    color: white;
+    text-align:start;
+    text-align: center;
+}
+figure {
+    display:inline-block;
+    margin: 2px;
+
+}
+figcaption:hover {
+    animation-name:luz;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+img::after {
+    background-color: rosybrown;
+}
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8{
+    transition: all 300ms linear;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: none;
+    margin:center;
+}
+.modal {
+    background-image: url(Imagens/Anna.gif);
+    background-size: 100%;
+}
+.modal2{
+    background-image: url(Imagens/oninho.webp);
+    background-size: 100%;
+}
+.modal3{
+    background-image: url(Imagens/Mortedo.gif);
+    background-size: 100%;
+}
+.modal4{
+    background-image: url(Imagens/tallgrass.gif);
+    background-size: 100%;
+}
+.modal5{
+    background-image: url(Imagens/vivari.gif);
+    background-size: 100%;
+}
+.modal6{
+    background-image: url(Imagens/the\ menu.gif);
+    background-size: 100%;
+}
+.modal7{
+    background-image: url(Imagens/ascensão.png);
+    background-size: 100%;
+}
+.modal8{
+    background-image: url(Imagens/m3gan.gif);
+    background-size: 100%;
+}
+
+.modal-content {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0 0 2px white;
+    margin-top: 5%;
+}
+.btn {
+    background-color: rgb(255, 57, 57);
+    padding:05px 10px 5px 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+}
+.btn:hover {
+    transition: all 300ms linear;
+    background-color: rgb(255, 0, 0);
+    padding: 05px 10px 5px 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+}
+.btn:active {
+    background-color: blue;
+    color: black;
+}
+.modal-header, .modal-body, .modal-footer {
+    padding: 8px;
+    color: white;
+    text-align: center;
+    text-shadow:01px 01px 01px black;
+    white-space: 40px;
+    overflow: hidden;
+}
+.modal-header h1 {
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+}
+.modal-body p {
+    text-align: center;
+}
+.modal-footer {
+    background-color: red;
+}
+button {
+    display: flex;
+    margin: auto;
+}
+iframe {
+    margin: auto;
+    display: flex;
+}
+title:hover {
+    color: Blue;
+}
+
+
+
