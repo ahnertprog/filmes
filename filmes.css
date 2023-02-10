@@ -160,6 +160,7 @@ img::after {
 }
 .modal-body p {
     text-align: center;
+    
 }
 .modal-footer {
     background-color: red;
@@ -174,6 +175,9 @@ iframe {
 }
 title:hover {
     color: Blue;
+}
+.text {
+    margin-right: 20px;
 }
 
 
